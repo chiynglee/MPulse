@@ -1,0 +1,12 @@
+#!/bin/sh
+
+ns event-60s.tcl & \
+ns event-10s.tcl & \
+ns event-1s.tcl & \
+ns event-900ms.tcl
+
+ns event-800ms.tcl & \
+ns event-700ms.tcl & \
+ns event-600ms.tcl & \
+ns event-500ms.tcl
+

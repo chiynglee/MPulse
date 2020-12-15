@@ -1,0 +1,11 @@
+#!/bin/sh
+
+ns event-1s-node100.tcl & \
+ns event-1s-node150.tcl & \
+ns event-1s-node200.tcl & \
+ns event-1s-node250.tcl
+
+ns event-1s-node300.tcl & \
+ns event-1s-node350.tcl & \
+ns event-1s-node400.tcl
+
